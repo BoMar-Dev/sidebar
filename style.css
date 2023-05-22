@@ -1,0 +1,85 @@
+.main-header{
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content:center;
+    padding:1rem; /*padding uppe och nere*/
+    line-height: 2rem;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 6px 7px 4px #888484;
+    }
+    
+    .gallery :first-child{
+        margin-top: 4rem;
+    }
+    
+
+    .navigator{
+        background-color: rgb(49, 46, 46);
+        color: whitesmoke;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        font-size: 1.1rem;
+        
+        
+        
+
+    }
+    
+    input{
+        margin-right: 35%;
+        border-radius: 7px;
+        box-shadow:  5px 5px #888888;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        
+    }
+    img{
+        width: 100%;
+        
+    }
+    
+      li{
+        border: solid rgb(70, 65, 65) 1px;
+        text-align: center;
+        border-radius: 10px;
+        
+       
+      }
+
+    @media only screen and (min-width: 768px){
+        img{
+        width: 27%;
+        padding: 1rem;
+        }
+        .gallery{
+            
+            margin-left: 20%;
+            
+            
+        }
+        .navigator{
+            width: 20%;
+            top:4rem
+
+        }
+    ul{
+        flex-direction: column;
+        line-height: 4rem;
+        
+    }
+
+    li{
+        margin-top: 1.5rem;
+        box-shadow: -0.5px 5px 5px #585656;
+    }
+    
+  } 
